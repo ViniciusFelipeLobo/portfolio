@@ -55,3 +55,19 @@ main p{
     font: normal bold 2em Poppins;
 
 }
+@media(min-width: 300px){
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 70%;
+}
+}
