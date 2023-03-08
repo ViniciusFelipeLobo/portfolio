@@ -5,8 +5,7 @@
     --corprimaria:#0320FF;
     --corsecundaria:#0AA8FC;
 }
-*{
-    padding: 0;
+*{    padding: 0;
     margin: 0;
 }
 header{
@@ -53,9 +52,10 @@ main{
 main p{
     margin-left: 15px;
     font: normal bold 2em Poppins;
-
+    
 }
-@media(min-width: 300px){
+
+@media(max-width: 390px){
 header{
     display: flex;
     justify-content: center;
@@ -67,7 +67,15 @@ nav{
     align-items: center;
     justify-content: center;
 }
+main{
+    display:flex;
+    flex-flow: wrap row;
+}
+main p{
+    text-align: center;
+}
 img{
-    width: 70%;
+    margin: auto;
+    width: 80%;
 }
 }
