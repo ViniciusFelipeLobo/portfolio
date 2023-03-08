@@ -55,27 +55,42 @@ main p{
     
 }
 
-@media(max-width: 390px){
+@media(max-width: 480px){
 header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
-nav{
+nav, ul, a{ 
+    width: 100%;
     display: flex;
     flex-flow: wrap row;
     align-items: center;
     justify-content: center;
+    align-content: center;
+}
+.logo, .lista{
+    margin: 0;
 }
 main{
     display:flex;
     flex-flow: wrap row;
 }
 main p{
+    font: normal bold 1.8em Poppins;
+    margin: 0;
     text-align: center;
 }
 img{
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
+.logo{
+    font: normal bold 2em Poppins;
+}
+ul, a{
+    font: normal lighter 0.8em Poppins;
+}
+
 }
