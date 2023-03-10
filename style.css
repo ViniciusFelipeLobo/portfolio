@@ -37,6 +37,7 @@ a:hover{
 }
 a:active{
     text-decoration: none;
+    color: inherit;
 }
 .logo{
     font: normal bold 2em Poppins;
