@@ -82,6 +82,7 @@ nav, ul, a{
 main{
     display:flex;
     flex-flow: wrap row;
+    justify-content: center;
 }
 main p{
     font: normal bold 1.8em Poppins;
