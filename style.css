@@ -35,6 +35,9 @@ nav ul a {
 a:hover{
     color: var(--corprimaria);
 }
+a:active{
+    text-decoration: none;
+}
 .logo{
     font: normal bold 2em Poppins;
     margin-left: 15px;
