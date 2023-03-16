@@ -38,7 +38,6 @@ a:hover{
 }
 a:active{
     text-decoration: none;
-    background-color: inherit;
 }
 .logo{
     font: normal bold 2em Poppins;
@@ -69,7 +68,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0px;
 }
 nav, ul, a{ 
     width: 100%;
@@ -87,7 +86,7 @@ main{
     flex-flow: wrap row;
     justify-content: center;
 }
-#apresentacao{
+main #apresentacao{
     font: normal bold 1.8em Poppins;
     margin: 0px;
     text-align: center;
