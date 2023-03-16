@@ -1,4 +1,9 @@
 @charset "UTF-8";
+:root{
+    --fonteprimaria: Poppins;
+    --corprimaria:#0320FF;
+    --corsecundaria:#0AA8FC;
+}
 *{
     margin: 0px;
     padding: 0px;
