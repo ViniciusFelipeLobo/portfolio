@@ -5,8 +5,8 @@
     --corprimaria:#0320FF;
     --corsecundaria:#0AA8FC;
 }
-*{    padding: 0;
-    margin: 0;
+*{    padding: 0px;
+    margin: 0px;
 }
 header{
     width: 100%;
@@ -57,10 +57,9 @@ main{
 main p{
     margin-left: 15px;
     font: normal bold 2em Poppins;
-    
 }
-img{
-    display: block;
+p.descricao{
+    font: normal lighter 1em Poppins;
 }
 @media (max-width: 576px) {
     
@@ -90,7 +89,7 @@ main{
 }
 main p{
     font: normal bold 1.8em Poppins;
-    margin: 0;
+    margin: 0px;
     text-align: center;
 }
 .logo{
