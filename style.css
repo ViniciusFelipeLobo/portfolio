@@ -54,7 +54,7 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-main p{
+#apresentacao{
     margin-left: 15px;
     font: normal bold 2em Poppins;
 }
@@ -87,7 +87,7 @@ main{
     flex-flow: wrap row;
     justify-content: center;
 }
-main p{
+#apresentacao{
     font: normal bold 1.8em Poppins;
     margin: 0px;
     text-align: center;
