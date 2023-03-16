@@ -86,7 +86,7 @@ main{
     flex-flow: wrap row;
     column-gap: 0px;
     justify-content: center;
-    align-content: ;
+    align-content:start ;
 }
 main #apresentacao{
     font: normal bold 1.5em Poppins;
