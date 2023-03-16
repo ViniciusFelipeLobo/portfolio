@@ -92,7 +92,7 @@ main #apresentacao{
     text-align: center;
 }
 main p.descricao{
-    font: normal lighter 1em Poppins;
+    font: normal lighter 0.5em Poppins;
     margin: 0px;
     text-align: center;
 }
