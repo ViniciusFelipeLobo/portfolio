@@ -82,12 +82,13 @@ nav, ul, a{
     margin: 0;
 }
 main{
-    display:flex;
+    display: flex;
     flex-flow: wrap row;
+    column-gap: 10px;
     justify-content: center;
 }
 main #apresentacao{
-    font: normal bold 1.8em Poppins;
+    font: normal bold 1.5em Poppins;
     margin: 0px;
     text-align: center;
 }
