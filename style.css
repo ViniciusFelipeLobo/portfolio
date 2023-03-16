@@ -59,6 +59,9 @@ main p{
     font: normal bold 2em Poppins;
     
 }
+img{
+    display: block;
+}
 @media (max-width: 576px) {
     
 }
