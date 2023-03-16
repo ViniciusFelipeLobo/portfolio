@@ -92,6 +92,11 @@ main p{
     margin: 0px;
     text-align: center;
 }
+main p.descricao{
+    font: normal lighter 1em Poppins;
+    margin: 0px;
+    text-align: center;
+}
 .logo{
     font: normal bold 2em Poppins;
 }
