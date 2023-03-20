@@ -53,10 +53,15 @@ main{
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     align-content: space-between;
+    flex-flow: row wrap;
+    column-gap: 30px;
 }
 #apresentacao{
+    text-align: center;
+    width: 500px;
     margin-left: 15px;
     font: normal bold 2em Poppins;
 }
@@ -65,13 +70,14 @@ p.descricao{
 }
 .redesociais{
     display: flex;
-    flex-direction: column;
-    list-style: none;
     justify-content: center;
-    margin-top: 20px;
-    text-align: center;
+} 
+.redesociais li{
+    list-style: none;
+    width: 50px;
 }
 .redesociais a{
+    list-style: none;
     text-decoration: none;
     color: rgba(0,0,0, 0.5);
 }
