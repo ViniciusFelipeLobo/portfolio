@@ -53,11 +53,8 @@ main{
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    column-gap: 40px;
     align-items: center;
-    align-content: space-between;
-    flex-flow: row wrap;
-    column-gap: 30px;
 }
 #apresentacao{
     text-align: center;
@@ -71,8 +68,10 @@ p.descricao{
 .redesociais{
     display: flex;
     justify-content: center;
+    padding: 20px;
 } 
 .redesociais li{
+    margin-right: 10px;
     list-style: none;
     width: 50px;
 }
