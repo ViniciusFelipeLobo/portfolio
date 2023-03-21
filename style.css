@@ -115,6 +115,7 @@ nav, ul, a{
 .celular{
 }
 main #apresentacao{
+    justify-content: center;
     font: normal bold 1.5em Poppins;
     margin: 0px;
     text-align: center;
