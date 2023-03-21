@@ -5,7 +5,8 @@
     --corprimaria:#0320FF;
     --corsecundaria:#0AA8FC;
 }
-*{    padding: 0px;
+*{    
+    padding: 0px;
     margin: 0px;
 }
 header{
@@ -88,13 +89,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
     margin: 0px;
 }
 nav, ul, a{ 
-    width: 100%;
-    display: flex;
-    flex-flow: wrap row;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     
 }
@@ -108,16 +107,12 @@ nav, ul, a{
     display: none;
 }
 .celular{
-    display: flex;
-    flex-flow: wrap row;
-    column-gap: 20px;
-    justify-content: center;
-    align-content: space-between;
 }
 main #apresentacao{
     font: normal bold 1.5em Poppins;
     margin: 0px;
     text-align: center;
+    width: 380px;
 }
 main p.descricao{
     font: normal lighter 0.5em Poppins;
