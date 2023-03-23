@@ -86,7 +86,7 @@ footer{
     text-align: center;
     background-color: var(--corprimaria);
     color: white;
-    font: normal 1em lighter var(--fonteprimaria) ;
+    font: normal 1.1em lighter var(--fonteprimaria) ;
 }
 @media (max-width: 576px) {
     
