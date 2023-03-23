@@ -93,38 +93,38 @@ footer{
 }
 @media(max-width: 480px){
 header{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+}
+.lista, .logo{
     margin: 0px;
 }
-nav, ul, a{ 
+nav, li, a{ 
     flex-wrap: wrap;
     justify-content: center;
-    
-}
-.logo, .lista{
-    margin: 0px;
+    text-align: center;
 }
 .celular{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 .computador{
     display: none;
 }
-.celular{
+picture{
+    width: 100%;
 }
 main #apresentacao{
+    margin: 0px;
     justify-content: center;
     font: normal bold 1.5em Poppins;
-    margin: 0px;
     text-align: center;
     width: 380px;
 }
 main p.descricao{
     font: normal lighter 0.5em Poppins;
-    margin: 0px;
     text-align: center;
 }
 .logo{
