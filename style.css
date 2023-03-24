@@ -104,7 +104,6 @@ header{
 nav, li, a{ 
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
 }
 .celular{
     display: flex;
@@ -121,7 +120,7 @@ main #apresentacao{
     justify-content: center;
     font: normal bold 1.5em Poppins;
     text-align: center;
-    width: 380px;
+    width: 100%;
 }
 main p.descricao{
     font: normal lighter 0.5em Poppins;
@@ -130,8 +129,10 @@ main p.descricao{
 .logo{
     font: normal bold 2em Poppins;
 }
-ul, a{
+header >nav > ul > li > a{
     font: normal lighter 1em Poppins;
+    text-align: center;
+    margin: 8px;
 }
 
 }
