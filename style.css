@@ -89,6 +89,53 @@ footer{
     font: normal 1.1em lighter var(--fonteprimaria) ;
 }
 @media (max-width: 576px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lista, .logo{
+        margin: 0px;
+    }
+    nav, li, a{ 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .celular{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        align-items: normal;
+    }
+    .computador{
+        display: none;
+    }
+    picture{
+        text-align: center;
+        width: 100%;
+    }
+    main #apresentacao{
+        margin: 0px;
+        font: normal bold 1.5em Poppins;
+        text-align: center;
+        width: 100%;
+    }
+    main p.descricao{
+        font: normal lighter 0.5em Poppins;
+        text-align: center;
+    }
+    .logo{
+        font: normal bold 2em Poppins;
+    }
+    header >nav > ul > li > a{
+        font: normal lighter 1em Poppins;
+        text-align: center;
+        margin: 8px;
+    }
+    
+    }
+    
     
 }
 @media(max-width: 480px){
