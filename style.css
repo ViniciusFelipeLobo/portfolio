@@ -108,16 +108,17 @@ nav, li, a{
 .celular{
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
 }
 .computador{
     display: none;
 }
 picture{
+    text-align: center;
     width: 100%;
 }
 main #apresentacao{
     margin: 0px;
-    justify-content: center;
     font: normal bold 1.5em Poppins;
     text-align: center;
     width: 100%;
