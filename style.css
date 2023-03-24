@@ -107,6 +107,7 @@ footer{
         flex-wrap: wrap;
         margin: 0px;
         align-items: normal;
+        height: 100vh;
     }
     .computador{
         display: none;
