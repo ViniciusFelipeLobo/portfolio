@@ -120,6 +120,7 @@ footer{
         font: normal bold 1.5em Poppins;
         text-align: center;
         width: 100%;
+        height: 100vh;
     }
     main p.descricao{
         font: normal lighter 0.5em Poppins;
