@@ -10,6 +10,20 @@
     padding: 0px;
     margin: 0px;
 }
+@media (min-width: 0px){
+    header{ 
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul{
+        display: flex;
+    }
+}
 @media (min-width:992px){
     header{
         width: 100%;
