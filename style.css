@@ -14,6 +14,12 @@
     header{ 
         width: 100%;
     }
+    .logo{
+        font-size: 3rem;
+    }
+    strong{
+        color: var(--corprimaria);
+    }
     nav{
         display: flex;
         width: 100%;
@@ -21,7 +27,17 @@
         flex-direction: column;
     }
     ul{
+        width: 100%;
         display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    a{
+        font-family: var(--fonteprimaria);
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #000000;
+
     }
 }
 @media (min-width:992px){
