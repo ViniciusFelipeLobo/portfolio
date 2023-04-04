@@ -46,13 +46,14 @@
         justify-content: space-evenly;
     }
     #apresentacao{
-        font-size: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
         font-weight: bold;
         font-family: var(--fonteprimaria);
         order: 2;
     }
     .descricao{
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: lighter;
     }
     .redesociais{
