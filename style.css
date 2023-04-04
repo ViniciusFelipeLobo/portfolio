@@ -37,7 +37,36 @@
         font-size: 1.1rem;
         text-decoration: none;
         color: #000000;
-
+    }
+    main{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #apresentacao{
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: var(--fonteprimaria);
+    }
+    .descricao{
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .redesociais{
+        display: block; 
+        text-align: center;
+    }
+    li{
+        display: inline;
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        background-color: var(--corprimaria);
+        color: white;
+        font: normal 1.1em lighter var(--fonteprimaria) ;
     }
 }
 @media (min-width:992px){
