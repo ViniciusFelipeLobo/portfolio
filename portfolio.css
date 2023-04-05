@@ -17,6 +17,7 @@
     .logo{
         font-size: 3rem;
         padding: 10px;
+        font-weight: bold;
     }
     strong{
         color: var(--corprimaria);
@@ -124,7 +125,7 @@
     a:active{
         text-decoration: none;
     }
-    .logo{
+    .logo p{
         font: normal bold 2em Poppins;
         margin-left: 15px;
     }
