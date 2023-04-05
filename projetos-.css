@@ -9,6 +9,36 @@
     margin: 0px;
     padding: 0px;
 }
+@media screen and (min-width: 0px) and (max-width: 440px){
+    header{ 
+        width: 100%;
+    }
+    .logo{
+        font-size: 3rem;
+        padding: 10px;
+    }
+    strong{
+        color: var(--corprimaria);
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    a{
+        font-family: var(--fonteprimaria);
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #000000;
+    }
+}
 @media (min-width: 900px){
     header{
         width: 100%;
