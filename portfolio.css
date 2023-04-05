@@ -39,6 +39,11 @@
         text-decoration: none;
         color: #000000;
     }
+    a:active{
+        color: var(--corprimaria);
+        text-decoration: underline;
+        background-color: transparent;
+    }
     main{
         height: 100vh;
         display: flex;
