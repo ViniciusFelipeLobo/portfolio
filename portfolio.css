@@ -39,11 +39,6 @@
         text-decoration: none;
         color: #000000;
     }
-    a:active{
-        color: var(--corprimaria);
-        text-decoration: underline;
-        background-color: transparent;
-    }
     main{
         height: 100vh;
         display: flex;
@@ -92,6 +87,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        
     }
     nav ul{
         font: normal lighter 1.3em Poppins;
@@ -106,8 +102,24 @@
         text-decoration: none;
         color: black;
     }
-    a:hover{
+    li{
+        position: relative;
+    }
+    .lista a:hover{
         color: var(--corprimaria);
+    }
+    .lista a::after{
+        content: " ";
+        background-color: var(--corprimaria);
+        width: 0%;
+        height: 2px;
+        position: absolute;
+    }
+    .lista a:hover::after{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transition: 0.5s ease-in-out;
     }
     a:active{
         text-decoration: none;
