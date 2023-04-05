@@ -16,6 +16,7 @@
     }
     .logo{
         font-size: 3rem;
+        padding: 10px;
     }
     strong{
         color: var(--corprimaria);
@@ -110,7 +111,7 @@
         font: normal bold 2em Poppins;
         margin-left: 15px;
     }
-    .logo b{
+    .logo strong{
         color: var(--corprimaria);
     }
     main{
