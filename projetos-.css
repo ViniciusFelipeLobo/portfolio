@@ -9,43 +9,74 @@
     margin: 0px;
     padding: 0px;
 }
-header{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
+@media screen and (min-width: 0px) and (max-width: 440px){
+    header{ 
+        width: 100%;
+    }
+    .logo{
+        font-size: 3rem;
+        padding: 10px;
+    }
+    strong{
+        color: var(--corprimaria);
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    a{
+        font-family: var(--fonteprimaria);
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #000000;
+    }
 }
-nav{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+@media (min-width: 900px){
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        font: normal lighter 1.3em Poppins;
+        display: flex;
+        flex-flow: nowrap row;
+        list-style: none;
+        margin-right: 15px;
+        align-items: center;
+    }
+    nav ul a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: var(--corprimaria);
+    }
+    a:active{
+        text-decoration: none;
+    }
+    .logo{
+        font: normal bold 2em Poppins;
+        margin-left: 15px;
+    }
+    .logo b{
+        color: var(--corprimaria);
+    }
 }
-nav ul{
-    font: normal lighter 1.3em Poppins;
-    display: flex;
-    flex-flow: nowrap row;
-    list-style: none;
-    margin-right: 15px;
-    align-items: center;
-}
-nav ul a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    color: var(--corprimaria);
-}
-a:active{
-    text-decoration: none;
-}
-.logo{
-    font: normal bold 2em Poppins;
-    margin-left: 15px;
-}
-.logo b{
-    color: var(--corprimaria);
-}
-
-/* comentarios de execução 
+ 

@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Luckiest+Guy&family=Monsieur+La+Doulaise&family=Poppins&family=Style+Script&display=swap');
+
+:root{
+    --fonteprimaria: Poppins;
+    --corprimaria:#0320FF;
+    --corsecundaria:#0AA8FC;
+}
+*{    
+    padding: 0px;
+    margin: 0px;
+}
+@media screen and (min-width: 0px) and (max-width: 440px){
+    header{ 
+        width: 100%;
+    }
+    .logo{
+        font-size: 3rem;
+        padding: 10px;
+        font-weight: bold;
+    }
+    strong{
+        color: var(--corprimaria);
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    a{
+        font-family: var(--fonteprimaria);
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #000000;
+    }
+    main{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #apresentacao{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: var(--fonteprimaria);
+        order: 2;
+    }
+    .descricao{
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+    .redesociais{
+        display: block; 
+        text-align: center;
+    }
+    li{
+        display: inline;
+        text-align: center;
+    }
+    picture{
+        order: 1;
+    }
+    footer{
+        text-align: center;
+        background-color: var(--corprimaria);
+        color: white;
+        font: normal 1.1em lighter var(--fonteprimaria) ;
+    }
+}
+@media screen and (min-width: 600px){
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    nav ul{
+        font: normal lighter 1.3em Poppins;
+        display: flex;
+        flex-flow: nowrap row;
+        list-style: none;
+        margin-right: 15px;
+        align-items: center;
+    }
+    nav ul a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: black;
+    }
+    li{
+        position: relative;
+    }
+    .lista a:hover{
+        color: var(--corprimaria);
+    }
+    .lista a::after{
+        content: " ";
+        background-color: var(--corprimaria);
+        width: 0%;
+        height: 2px;
+        position: absolute;
+    }
+    .lista a:hover::after{
+        width: 90%;
+        left: 0;
+        bottom: 0;
+        transition: 0.5s ease-in-out;
+    }
+    a:active{
+        text-decoration: none;
+    }
+    .logo p{
+        font: normal bold 2em Poppins;
+        margin-left: 15px;
+    }
+    .logo strong{
+        color: var(--corprimaria);
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        column-gap: 40px;
+        align-items: center;
+    }
+    #apresentacao{
+        text-align: center;
+        width: 500px;
+        margin-left: 15px;
+        font: normal bold 2em Poppins;
+    }
+    p.descricao{
+        font: normal lighter 1em Poppins;
+    }
+    .redesociais{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    } 
+    .redesociais li{
+        margin-right: 10px;
+        list-style: none;
+        width: 50px;
+    }
+    .redesociais a{
+        list-style: none;
+        text-decoration: none;
+        color: rgba(0,0,0, 0.5);
+    }
+    footer{
+        text-align: center;
+        background-color: var(--corprimaria);
+        color: white;
+        font: normal 1.1em lighter var(--fonteprimaria) ;
+    }
+
+}
